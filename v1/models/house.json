@@ -1,0 +1,90 @@
+{
+    "_id": {
+        "$oid": "5ad0c60a734d1d08b020d387"
+    },
+    "type": "house",
+    "modality": "rental",
+    "location": {
+        "country": "USA",
+        "province": "Florida",
+        "county": "Osceola",
+        "city": "Saint Cloud",
+        "address": {
+            "street": "2122 Belgium Tiger",
+            "zipcode": "34555"
+        },
+        "coordinates": {
+            "latitude": null,
+            "longitude": null
+        }
+    },
+    "price": {
+        "amount": "900",
+        "cycle": "montly"
+    },
+    "disclaimer": {
+        "yearBuilt": "2010",
+        "propertyTax": {
+            "taxAmount": "500",
+            "taxDue": "false"
+        }
+    },
+    "rooms": {
+        "bedrooms": {
+            "quantity": "2",
+            "description": [
+                {
+                    "size": "small",
+                    "suite": "false",
+                    "sqft": "null"
+                },
+                {
+                    "size": "large",
+                    "suite": "true",
+                    "sqft": "null"
+                }
+            ]
+        },
+        "bathrooms": {
+            "quantity": "2",
+            "description": [
+                {
+                    "size": "small",
+                    "sqft": "null"
+                },
+                {
+                    "size": "small",
+                    "sqft": "null"
+                }
+            ]
+        },
+        "garage": {
+            "quantity": "1",
+            "description": [
+                {
+                    "size": "small",
+                    "sqft": "null"
+                }
+            ]
+        }
+    },
+    "area": {
+        "estate": {
+            "sqft": "1200"
+        },
+        "lot": {
+            "sqft": "null"
+        }
+    },
+    "photos" : [{
+        "size": "small",
+        "url": "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&h=350"
+    }],
+    "contact": [{
+        "name": "Gilbert",
+        "phone": "123-123-1234"
+    }],
+    "aditional": {
+        "note": "This is a great house."
+    }
+}
